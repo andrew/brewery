@@ -20,9 +20,9 @@
 		49B84CDE13420C48006A1343 /* Brewery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brewery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B84CE213420C49006A1343 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		49B84CE413420C49006A1343 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		49B84CE913420C49006A1343 /* Brewery-Info.plist */ = {isa = PBXFileReference; path = "Brewery-Info.plist"; sourceTree = "<group>"; };
+		49B84CE913420C49006A1343 /* Brewery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brewery-Info.plist"; sourceTree = "<group>"; };
 		49B84CEB13420C49006A1343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49B84CED13420C49006A1343 /* Brewery-Prefix.pch */ = {isa = PBXFileReference; path = "Brewery-Prefix.pch"; sourceTree = "<group>"; };
+		49B84CED13420C49006A1343 /* Brewery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brewery-Prefix.pch"; sourceTree = "<group>"; };
 		49B84CEE13420C49006A1343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49B84CF213420C49006A1343 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		49B84CF513420C49006A1343 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
