@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Brewery' target in the 'Brewery' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
