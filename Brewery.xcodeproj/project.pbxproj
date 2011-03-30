@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4992CBB113434EF40049A29F /* MyController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4992CBB013434EF40049A29F /* MyController.rb */; };
 		49B84CE313420C49006A1343 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B84CE213420C49006A1343 /* Cocoa.framework */; };
 		49B84CE513420C49006A1343 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B84CE413420C49006A1343 /* MacRuby.framework */; };
 		49B84CEC13420C49006A1343 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B84CEA13420C49006A1343 /* InfoPlist.strings */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4992CBB013434EF40049A29F /* MyController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyController.rb; sourceTree = "<group>"; };
 		49B84CDE13420C48006A1343 /* Brewery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brewery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B84CE213420C49006A1343 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		49B84CE413420C49006A1343 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				49B84CF513420C49006A1343 /* rb_main.rb */,
+				4992CBB013434EF40049A29F /* MyController.rb */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				49B84CF313420C49006A1343 /* MainMenu.xib in Resources */,
 				49B84CF613420C49006A1343 /* rb_main.rb in Resources */,
 				49B84CF813420C49006A1343 /* AppDelegate.rb in Resources */,
+				4992CBB113434EF40049A29F /* MyController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +309,7 @@
 				49B84CFD13420C49006A1343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49B84CFE13420C49006A1343 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -313,6 +318,7 @@
 				49B84D0013420C49006A1343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
