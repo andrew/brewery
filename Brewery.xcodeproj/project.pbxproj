@@ -16,6 +16,16 @@
 		49B84CF813420C49006A1343 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 49B84CF713420C49006A1343 /* AppDelegate.rb */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		49BF8AC11397B5C400ECAD8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B84CD513420C48006A1343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B84CDD13420C48006A1343;
+			remoteInfo = Brewery;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		49B84CDE13420C48006A1343 /* Brewery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brewery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B84CE213420C49006A1343 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -116,7 +126,9 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/local/bin/macruby_deploy;
+			buildWorkingDirectory = /Users/andrew/Desktop;
 			dependencies = (
+				49BF8AC21397B5C400ECAD8B /* PBXTargetDependency */,
 			);
 			name = Deployment;
 			passBuildSettingsInEnvironment = 1;
@@ -190,6 +202,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		49BF8AC21397B5C400ECAD8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B84CDD13420C48006A1343 /* Brewery */;
+			targetProxy = 49BF8AC11397B5C400ECAD8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		49B84CEA13420C49006A1343 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -213,7 +233,7 @@
 		49B84CF913420C49006A1343 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -231,7 +251,7 @@
 		49B84CFA13420C49006A1343 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
