@@ -16,6 +16,10 @@ class SearchController < NSWindowController
         super
     end
 
+    def install(sender)
+       puts 'install'
+    end
+
     def search(sender)
         self.results = Homebrew.search_brews(search_field.stringValue).to_a
         self.results_table.reloadData
